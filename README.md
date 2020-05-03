@@ -1,2 +1,3 @@
 # Python Flask App using Google Cloud
-## Arturo Cardenas, May/2020
+## Automatic Deployment using a Google Cloud Trigger
+### Arturo Cardenas, May/2020
