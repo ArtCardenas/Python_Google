@@ -17,6 +17,11 @@ def name(value):
     val = {"value": value}
     return jsonify(val)  # return url, use val and not value
 
+@app.route('/bob')  # take some value
+def bob():
+    val = {"value": "bob"}
+    return jsonify(val)  # return "bob"
+
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
     # Engine, a webserver process such as Gunicorn will serve the app. This
